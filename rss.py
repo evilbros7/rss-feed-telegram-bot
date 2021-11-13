@@ -91,7 +91,7 @@ def create_feed_checker(feed_url):
                 break
 
             # ↓ Edit this message as your needs.
-            message = f"◦•●◉✿ 𝗛𝗮𝗰𝗸𝗲𝗿𝘀 𝗪𝗼𝗿𝗹𝗱 𝗙𝗼𝗿 𝗬𝗼𝘂  ✿◉●•◦\n\n🌟**{first_entry.title}**\n\n𝗥𝗲𝗮𝗱 𝗠𝗼𝗿𝗲 📝 : {first_entry.link}\n\n𝗦𝗵𝗮𝗿𝗲 & 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 @CoursesDrive"
+            message = f"◦•●◉✿ 𝗛𝗮𝗰𝗸𝗲𝗿𝘀 𝗪𝗼𝗿𝗹𝗱 𝗙𝗼𝗿 𝗬𝗼𝘂  ✿◉●•◦\n\n🌟**{first_entry.title}**\n\n𝗖𝗵𝗲𝗰𝗸 𝗢𝘂𝘁 📝 : {first_entry.link}\n\n𝗦𝗵𝗮𝗿𝗲 & 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 @CoursesDrive"
             try:
                 app.send_message(log_channel, message)
                 if app2 is not None:
